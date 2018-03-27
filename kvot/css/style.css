@@ -1,0 +1,33 @@
+/* some style */
+
+body {
+    font-family: monospace;
+    
+}
+
+.cell {
+    width: 2rem;
+    border: solid;
+    border-width: 1px;
+}
+
+.cell input {
+    padding: 0px;
+    height: 17px;
+    width: 100%;
+}
+
+.column, .bottom-row, .origo {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
